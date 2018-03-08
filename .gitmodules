@@ -1,0 +1,3 @@
+[submodule "themes/shiori"]
+	path = themes/shiori
+	url = https://github.com/chibicode/hugo-theme-shiori.git
