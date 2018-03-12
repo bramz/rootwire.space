@@ -1,10 +1,46 @@
-languageCode = "en-US"
-title = "RootWire "
-baseurl = "http://10.142.0.3/"
-theme = "code-editor"
+baseurl = "http://rootwire.space"
+languageCode = "en"
+title = "rootwire.space"
+theme = "hucore"
+copyright = "&copy; 2018 <a href='http://rootwire.space'>RootWire</a>"
+disqusShortname = "shortname"
+googleAnalytics = "trackingcode"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
 
 [params]
-    author = "Brock Ramsey"
-    locale = "en-US"
-    # rootlink = "/"
-    # rootlink specifies where Root in menu.html links to. If it's not set then baseurl will be used.
+description = "Welcome to RootWire!"
+keywords = ["programming", "golang", "blog"]
+author = "Brock Ramsey"
+sharingicons = true
+displayauthor = true
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/bramz"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://gitlab.packetfire.org"
+fa_icon = "fa-gitlab"
+
+[[params.social]]
+url = "https://twitter.com/brockramz"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "https://linkedin.com/in/brock-ramsey-921b078a"
+fa_icon = "fa-linkedin-square"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+[[params.socialshare]]
+url = "https://linkedin.com/in/brock-ramsey-921b078a"
+fa_icon = "fa-linkedin-square"
