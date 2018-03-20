@@ -1,3 +1,6 @@
 [submodule "themes/shiori"]
 	path = themes/shiori
 	url = https://github.com/chibicode/hugo-theme-shiori.git
+[submodule "hucore"]
+	path = hucore
+	url = https://github.com/mgjohansen/hucore.git
