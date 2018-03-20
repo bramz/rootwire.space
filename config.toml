@@ -3,7 +3,7 @@ languageCode = "en"
 title = "rootwire.space"
 theme = "hucore"
 copyright = "&copy; 2018 <a href='http://rootwire.space'>RootWire</a>"
-disqusShortname = "shortname"
+disqusShortname = "rootwire"
 googleAnalytics = "trackingcode"
 
 [taxonomies]
