@@ -8,11 +8,9 @@ menu:
 title: Tic Tac Toe in Javascript
 weight: 10
 ---
-
-
-## Introduction
 This walkthrough/tutorial will show you how to create a simple stand-alone tic tac toe application in javascript. We will assume that you are familiar with javascript and have used node.
 I will explain how to create a simple stand-alone tic tac toe application with no user input. One will need to implement user input support to suit own needs.
+
 ## Getting Started
 We have the game of tic tac toe, which consists of two players. Each player uses X or O to make a move on the board. We will assume the first move starts with 'X' and ends with 'X'. We have a 3x3 grid for the board. Leaving us with 9 total spaces on the board, consider the following.
 
