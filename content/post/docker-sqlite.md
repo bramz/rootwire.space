@@ -8,7 +8,7 @@ menu:
 title: Containerize Sqlite3 With Docker
 weight: 10
 ---
-In this post I assume users have experience with docker and sqlite3. I suggest some reading of docker documentation at <a href="http://docs.docker.com">docs.docker.com</a>.
+In this post I assume users have experience with docker and sqlite3. I suggest some reading of docker documentation at <a href="http://docs.docker.com">docs.docker.com</a>. Also, one may want to read up on usage of Sqlite3 as well if not familiar, located at <a href="https://sqlite.org/docs.html">https://sqlite.org/docs.html</a>. I use docker to maintain persitence environements for my projects, I use it for both sqlite and postgres.
 ## The Makefile
 Create a file named `Makefile`with the following content.
 ```
@@ -28,4 +28,17 @@ RUN mkdir -p /root/db
 
 WORKDIR /root/db
 ENTRYPOINT [ "sqlite3" ]
+```
+## Compose Alternative
+Creating a `docker-compose.yml` and running with `docker-compose up`.
+```
+version: '3'
+
+services:
+  sqlite3:
+    image: brockramz/sqlite3:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./db/:/root/db/
 ```
