@@ -8,7 +8,7 @@ menu:
 title: The FTP Rant
 weight: 10
 ---
-Well, the title sais it all, the great FTP rant. This rant, strangely enough, led me to set up a darknet router. A friend of mine, we'll call him `anon`, he went on a rant after I made a comment about him still using FTP. After this, he and I had a private discussion. This discussion, along with the rant, convinced me to set up a darknet router and start treating anonymity and privacy with a bit more respect again.
+Well, the title says it all, the great FTP rant. This rant, strangely enough, led me to set up a darknet router. A friend of mine, we'll call him `anon`, he went on a rant after I made a comment about him still using FTP. After this, he and I had a private discussion. This discussion, along with the rant, convinced me to set up a darknet router and start treating anonymity and privacy with a bit more respect again.
 ## The Rant
 ```
 @anon  I share my images with ftp.
