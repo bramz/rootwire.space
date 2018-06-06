@@ -26,10 +26,6 @@ url = "https://github.com/bramz"
 fa_icon = "fa-github"
 
 [[params.social]]
-url = "https://gitlab.packetfire.org"
-fa_icon = "fa-gitlab"
-
-[[params.social]]
 url = "https://twitter.com/brockramz"
 fa_icon = "fa-twitter"
 
