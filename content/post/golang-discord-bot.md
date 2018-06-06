@@ -11,7 +11,7 @@ weight: 10
 Writing this, I assume the reader is familiar with discord and has basic golang experience. Here we're going to be using a pre existing package to handle the discord API. This saves us the trouble of "reinventing the wheel" in terms of handling the API.
 
 ## Before We Get Started
-Before we get started, I want to recommend starting your own discord server. This will allow you to utilize all aspects of discord servers with a custom bot, with no restraints. After you have created your own server, you will want to grant authorization for your bot application. To do so, visit the [discord developer docs](https://discordapp.com/developers) and generate an auth token. We will be using this token to complete our bot to discord hand shake.
+Before we get started, I want to recommend starting your own discord server. This will allow you to utilize all aspects of discord servers with a custom bot, with no restraints. After you have created your own server, you will need to grant authorization for your bot application. To do so, visit the [discord developer docs](https://discordapp.com/developers) and generate an auth token. We will be using this token to complete our bot to discord hand shake.
 
 ## Prerequisites And Our Bot Skeleton
 Prior to starting our bot skeleton, the reader may want to familiarize with the following. We are going to be using the `discordgo` package for golang bindings with discord. More information can be found here: <https://github.com/bwmarrin/discordgo>
@@ -60,7 +60,7 @@ func main() {
 }
 ```
 ## Handling Commands
-Now we can use our command handler function to parse commands passed to the bot. The bot will respond accordingly when a command has been triggered. For an example instance we will be parsing the `!test` command.
+Now we can use our command handler function to parse commands passed to the bot. The bot will respond accordingly when a command has been triggered. For an example instance, we will be parsing the `!test` command.
 ```
 func handleCmd(d *discordgo.Session, msg *discordgo.MessageCreate) {
     user := msg.Author
@@ -78,4 +78,4 @@ func handleCmd(d *discordgo.Session, msg *discordgo.MessageCreate) {
 }
 ```
 
-That sums it up! I hope this basic example allows beginners to expand from here, in hopes to create a custom bot for their own usage, enjoy!
+That sums it up! I hope this basic example will allow beginners to expand from here, in hopes to create a custom bot for their own usage. Enjoy!
