@@ -8,13 +8,13 @@ menu:
 title: Simple Golang Discord Bot
 weight: 10
 ---
-Writing this, I assume the reader is familiar with discord and has basic golang experience. Here we're going to be using a pre existing package to handle the discord API. This saves us the trouble of "reinventing the wheel" in terms of handling the API.
+I assume the reader is familiar with discord and has basic golang experience. Here we're going to use a pre existing package to handle the discord API. This saves us the trouble of "reinventing the wheel" in terms of handling the API.
 
 ## Before We Get Started
 Before we get started, I want to recommend starting your own discord server. This will allow you to utilize all aspects of discord servers with a custom bot, with no restraints. After you have created your own server, you will need to grant authorization for your bot application. To do so, visit the [discord developer docs](https://discordapp.com/developers) and generate an auth token. We will be using this token to complete our bot to discord hand shake.
 
 ## Prerequisites And Our Bot Skeleton
-Prior to starting our bot skeleton, the reader may want to familiarize with the following. We are going to be using the `discordgo` package for golang bindings with discord. More information can be found here: <https://github.com/bwmarrin/discordgo>
+Prior to starting our bot skeleton, readers may want to familiarize themselves with the following. We are going to be using the `discordgo` package for golang bindings with discord. More information can be found here: <https://github.com/bwmarrin/discordgo>
 ```
 package main
 
