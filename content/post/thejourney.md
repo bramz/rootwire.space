@@ -17,8 +17,9 @@ The path has varied along the way, but none the less, I've found the path. I was
 After switching to Python, I really focused, I stuck to completing all my ideas and projects in Python. This was an amazing experience for me, over all my years trying to learn how to write code properly. I never found a language that really satisfied my ability to read, understand and grasp the concepts and apply them accordingly. Python to me, was designed for this, the term "pythonic", the readability of the code. It all adds up and for me it is the best language for beginners.
 
 ## A Little Proof
-The proof is in the pudding I suppose, since I made the switch here are some projects I've completed or worked on.
+The proof is in the pudding I suppose, since I made the switch here are some projects I've completed or worked on. My advice, stay dedicated, problem solve vigorously and become a python developer in no time!
 
 My URL Shortening API: [pfurl.me](http://pfurl.me)
 My Discord Bot: [Apophis](https://github.com/packetfire/apophis)
+A Cluster Container Orchestration Tool: [Gemini](https://github.com/packetfire/gemini)
 My Personal Website: [BrockRamsey.com](http://brockramsey.com)
